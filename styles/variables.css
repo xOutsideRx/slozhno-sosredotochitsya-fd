@@ -10,20 +10,20 @@
   --text-weight: 400;
 
   /* Связано с размером */
-  --main-padding: 10px;  /* 20px при > 375  */
-  --main-content-vertical-padding: 40px;  /* 60px при > 375  */
-  --sections-gap: 50px;  /* 80px при > 375  */
+  --main-padding: 10px;
+  --main-content-vertical-padding: 40px;
+  --sections-gap: 50px;
 
   /* Связано с цветом */
-  --main-text-color: #f1b2ce;  /* #353430 */
-  --bg-color: #000028;  /* #fff1f7 */
-  --main-header-color: #db00ff; /* #ffc2e6 */
-  --button-color: #ff0070;  /* #353430 */
-  --button-hover-border: #ff007066; /* #32312d66 */
-  --section-header-color: #ff0070;  /* #353430 */
-  --article-header-color: #000028;  /* #353430 */
-  --article-bg-color: #ff0070;  /* #ff8dcb */
-  --link-shadow-color: #ff0070; /* #ff8dcb */
+  --main-text-color: #f1b2ce;
+  --bg-color: #000028;
+  --main-header-color: #db00ff;
+  --button-color: #ff0070;
+  --button-hover-border: #ff007066;
+  --section-header-color: #ff0070;
+  --article-header-color: #000028;
+  --article-bg-color: #ff0070;
+  --link-shadow-color: #ff0070;
   --bg-image: url("../images/cover-image-dark.png");
   --visible: visible;
 }
