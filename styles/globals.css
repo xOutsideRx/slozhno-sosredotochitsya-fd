@@ -7,32 +7,33 @@
 }
 
 body {
+  margin: 0 auto;
+  padding: 0;
   min-inline-size: 375px;
   max-inline-size: 1440px;
-  margin: 0 auto;
 }
 .page {
-  font-family: 'IBM Plex Mono';
-  font-size: var(--font-size-general);
+  font-family: "IBM Plex Mono", sans-serif;
   font-weight: var(--font-weight-general);
+  font-size: var(--font-size-general);
   line-height: 23.4px;
 }
 h2 {
-  font-size: var(--font-size-general);
   font-weight: var(--font-weight-accident);
+  font-size: var(--font-size-general);
 }
 h3 {
-  font-size: var(--font-size-general);
   font-weight: var(--font-weight-accident);
+  font-size: var(--font-size-general);
 }
 h4 {
+  font-weight: var(--font-weight-general);
   font-size: var(--font-size-general);
-  font-weight: var(--font-weight-general); 
 }
 figure {
   box-sizing: border-box;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -43,7 +44,7 @@ h5,
 h6,
 p {
   margin: 0;
-  font-size: 1em;
+  padding: 0;
 }
 
 ul {

@@ -7,6 +7,7 @@
   --color-menu: #ff0070;
   --color-text-paragraph: #f1b2ce;
   --color-text-title: #000028;
+  --color-rec-decoration:#ff0070;
 
   --font-size-general: 18px;
   --font-weight-general: 400;
@@ -15,11 +16,19 @@
   --indention-section: 50px;
   --indention-global: 10px;
   --indantion-title: 20px;
+  --intro-height: 668px;
+  --word-shadow: #ff0070;
 }
 @media (width >= 768px) {
   :root {
     --indention-header: 60px;
     --indention-section: 80px;
     --indention-global: 20px;
+    --intro-height: 1024px;
+  }
+}
+@media (width >= 1024px) {
+  :root {
+    --intro-height: 768px;
   }
 }

@@ -1,5 +1,6 @@
 :root.theme-light {
   --background-image-page: url("../images/cover-image-light.png");
+  --background-color-page:#FF8DCB;
   --bacground-color-title: #ff8dcb;
   --color-title: #ffc2e6;
   --color-title-accident: #353430;
@@ -7,16 +8,21 @@
   --color-title-shadow: #ff8dcb;
   --color-text-paragraph: #353430;
   --color-text-title: #353430;
+  --word-shadow: #ff8dcb;
+  --color-rec-decoration: transparent;
 }
 @media (prefers-color-scheme: light) {
   :root {
     --background-image-page: url("../images/cover-image-light.png");
+     --background-color-page:#FF8DCB;
     --bacground-color-title: #ff8dcb;
     --color-title: #ffc2e6;
     --color-title-accident: #353430;
-    --color-title-shadow: #ff8dcb;
     --color-menu: #353430;
+    --color-title-shadow: #ff8dcb;
     --color-text-paragraph: #353430;
     --color-text-title: #353430;
+    --word-shadow: #ff8dcb;
+    --color-rec-decoration: transparent;
   }
 }
