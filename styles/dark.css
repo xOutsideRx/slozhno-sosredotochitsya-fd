@@ -1,27 +1,47 @@
 :root.theme-dark {
-  --background-image-page: url("../images/cover-image-dark.png");
-  --background-color-page:#000028;
-  --bacground-color-title: #ff0070;
-  --color-title: #db00ff;
-  --color-title-accident: #ff0070;
-  --color-title-shadow: #ff0070;
-  --color-menu: #ff0070;
-  --color-text-paragraph: #f1b2ce;
-  --color-text-title: #000028;
-  --color-rec-decoration: #ff0070;
+  --accent-color: var(--real-red);
+  --bg-color: var(--approximately-black);
+  --decoration-color: var(--real-red);
+  --button-color: var(--real-red);
+  --decor-color: var(--approximately-black);
+  --decor-bg-color: var(--real-red);
+  --main-bg-color: var(--approximately-black);
+  --main-text-color: var(--title-pink);
+  --nav-color: var(--approximately-black);
+  --nav-hover-color: var(--transparent-red);
+  --main-heading-color: var(--real-red);
+  --header-logo-color: var(--title-color-dark);
+  --footer-logo-color: var(--title-color-dark);
+  --background-image: url("../images/cover-image-dark.png");
 }
-
 @media (prefers-color-scheme: dark) {
   :root {
-    --background-image-page: url("../images/cover-image-dark.png");
-    --background-color-page:#000028;
-    --bacground-color-title: #ff0070;
-    --color-title: #db00ff;
-    --color-title-accident: #ff0070;
-    --color-title-shadow: #ff0070;
-    --color-menu: #ff0070;
-    --color-text-paragraph: #f1b2ce;
-    --color-text-title: #000028;
-    --color-rec-decoration: #ff0070;
+    --accent-color: var(--real-red);
+    --bg-color: var(--approximately-black);
+    --decoration-color: var(--real-red);
+    --button-color: var(--real-red);
+    --decor-color: var(--approximately-black);
+    --decor-bg-color: var(--real-red);
+    --main-bg-color: var(--approximately-black);
+    --main-text-color: var(--title-pink);
+    --nav-color: var(--real-red);
+    --nav-hover-color: var(--transparent-red);
+    --main-heading-color: var(--real-red);
+    --header-logo-color: var(--title-color-dark);
+    --footer-logo-color: var(--title-color-dark);
+    --background-image: url("../images/cover-image-dark.png");
   }
+  .rec_lable::after {
+    display: inline-block;
+  }
+  .rec_lable {
+    display: inline-flex;
+  }
+}
+
+.theme-dark .rec_lable::after {
+  display: inline-block;
+}
+.theme-dark .rec_lable {
+  display: inline-flex;
 }
