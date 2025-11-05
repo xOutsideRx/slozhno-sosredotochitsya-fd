@@ -1,6 +1,6 @@
 .page {
   font-size: var(--regular-font-size);
-  font-family: var(--project-font-family);
+  font-family: var(--project-font-family), sans-serif;
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -131,6 +131,7 @@
 
 .header__theme-menu-button:focus {
   outline: none;
+  border: 1px solid transparent;
 }
 
 .header__theme-menu-button:focus-visible {
@@ -143,7 +144,7 @@
 }
 
 .section__title {
-  font-family: var(--project-font-family);
+  font-family: var(--project-font-family), sans-serif;
   line-height: 83%;
   font-weight: 700;
   color: var(--header-logo-color);
@@ -258,6 +259,8 @@
   font-weight: 400;
   font-size: var(--regular-font-size);
   line-height: 23.4px;
+  gap: 20px;
+
 }
 
 .text-block__list {
