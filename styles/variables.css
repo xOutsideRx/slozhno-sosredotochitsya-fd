@@ -20,4 +20,18 @@
   --min-height: 668px;
   --project-font-family: "IBM Plex Mono", monospace;
   --corner-thickness: 1px;
+  --accent-color: var(--real-red);
+  --bg-color: var(--approximately-black);
+  --decoration-color: var(--real-red);
+  --button-color: var(--real-red);
+  --decor-color: var(--approximately-black);
+  --decor-bg-color: var(--real-red);
+  --main-bg-color: var(--approximately-black);
+  --main-text-color: var(--title-pink);
+  --nav-color: var(--approximately-black);
+  --nav-hover-color: var(--transparent-red);
+  --main-heading-color: var(--real-red);
+  --header-logo-color: var(--title-color-dark);
+  --footer-logo-color: var(--title-color-dark);
+  --background-image: url("../images/cover-image-dark.png");
 }
